@@ -34,6 +34,6 @@ wss.on("connection", (ws) => {
 // Phản hồi HTTP cho các yêu cầu ngoài WebSocket
 app.get("*", (req, res) => {
   res.send(
-    "vmess://eyJ2IjoiMiIsInBzIjoiTXlWTWVzcyIsImFkZCI6InYycmF5LXZtZXNzLm9ucmVuZGVyLmNvbSIsInBvcnQiOiI0NDMiLCJpZCI6IjM2Y2ZjM2RlLWVjZmQtNDc1Mi1hZTZmLThmMGY5MjAzNTE0MyIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiJtLnlvdXR1YmUuY29tIiwicGF0aCI6Ii9hbmh0dSIsInRscyI6InRscyJ9"
+    "vmess://eyJ2IjoiMiIsInBzIjoiTXlWTWVzcyIsImFkZCI6IndzLWVjdzAub25yZW5kZXIuY29tIiwicG9ydCI6IjQ0MyIsImlkIjoiMzZjZmMzZGUtZWNmZC00NzUyLWFlNmYtOGYwZjkyMDM1MTQzIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiJub25lIiwiaG9zdCI6Im0ueW91dHViZS5jb20iLCJwYXRoIjoiL2FuaHR1IiwidGxzIjoidGxzIn0="
   );
 });
